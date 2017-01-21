@@ -1,0 +1,45 @@
+.transition {
+	width: 100px;
+	height: 100px;
+	background: green;
+	animation-name: example;
+	animation-duration: 5s;
+	margin: 0 auto;
+}
+@keyframes example {
+	from {
+		background-color: green;
+	}
+	to {
+		background-color: orange;
+	}
+	from {
+		border-radius: none
+	}
+	to{
+		border-radius: 20px
+	}
+	from {
+		border-radius: none
+	}
+	to{
+		border-radius: 30px
+	}
+	from {
+		border-radius: none
+	}
+	to{
+		border-radius: 40px
+	}
+	from {
+		border-radius: none
+	}
+	to{
+		border-radius: 50px
+	}
+}
+p {
+	color: white;
+	text-align: center;
+	padding: 40px 0;
+}
